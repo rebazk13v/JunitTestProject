@@ -9,7 +9,7 @@ public class JunitTest {
     @Test
     public void testAdd() {
         MyFunctionTest myFunction = new MyFunctionTest();
-        int result = myFunction.add(2, 3);
+        int result = myFunction.add(2, 2);
         assertEquals(5, result);
     }
 
